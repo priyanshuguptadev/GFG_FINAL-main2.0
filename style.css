@@ -101,11 +101,11 @@ body {
   position: fixed;
   z-index: 102;
   mix-blend-mode: difference;
-  /* background-color: #2321218a; Transparent white background */
-  /* backdrop-filter: blur(10px); /* Blur effect */
-  /* -webkit-backdrop-filter: blur(10px); Safari support */
-  /* border-bottom: 1px solid rgba(255, 255, 255, 0.2); Optional: subtle border */
-  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); Optional: subtle shadow */
+  background-color: #2321218a;
+  backdrop-filter: blur(10px); 
+   -webkit-backdrop-filter: blur(10px); 
+ border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   cursor: pointer;
 }
 

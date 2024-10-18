@@ -216,42 +216,42 @@ h4.forEach(function (elem) {
 })();
 
 
-// const modal = document.querySelector(".modal");
-// const overlay = document.querySelector(".overlay");
-// const btnCloseModal = document.querySelector(".close-modal");
-// const btnsOpenModel = document.querySelector(".about-us");
-// console.log(btnsOpenModel);
+const modal = document.querySelector(".modal");
+const overlay = document.querySelector(".overlay");
+const btnCloseModal = document.querySelector(".close-modal");
+const btnsOpenModel = document.querySelector(".about-us");
+console.log(btnsOpenModel);
 
-// const openModal = function () {
-//   modal.classList.remove("hidden");
-//   overlay.classList.remove("hidden");
-//   gsap.fromTo(
-//     modal,
-//     { opacity: 0, scale: 0.5 }, // Initial state
-//     { opacity: 1, scale: 1, duration: 0.5, ease: "power2.out" } // Animation to apply
-//   );
-// };
+const openModal = function () {
+  modal.classList.remove("hidden");
+  overlay.classList.remove("hidden");
+  gsap.fromTo(
+    modal,
+    { opacity: 0, scale: 0.5 }, // Initial state
+    { opacity: 1, scale: 1, duration: 0.5, ease: "power2.out" } // Animation to apply
+  );
+};
 
-// const closeModal = function () {
-//   gsap.to(modal, {
-//     opacity: 0,
-//     scale: 0.5,
-//     duration: 0.3,
-//     ease: "power2.out",
-//     onComplete: function () {
-//       modal.classList.add("hidden");
-//       overlay.classList.add("hidden");
-//     },
-//   });
-// };
+const closeModal = function () {
+  gsap.to(modal, {
+    opacity: 0,
+    scale: 0.5,
+    duration: 0.3,
+    ease: "power2.out",
+    onComplete: function () {
+      modal.classList.add("hidden");
+      overlay.classList.add("hidden");
+    },
+  });
+};
 
-// btnCloseModal.addEventListener("click", closeModal);
-// overlay.addEventListener("click", closeModal);
-// document.addEventListener("keydown", function (keyPressEvent) {
-//   if (keyPressEvent.key === "Escape" && !modal.classList.contains("hidden")) {
-//     closeModal();
-//   }
-// });
+btnCloseModal.addEventListener("click", closeModal);
+overlay.addEventListener("click", closeModal);
+document.addEventListener("keydown", function (keyPressEvent) {
+  if (keyPressEvent.key === "Escape" && !modal.classList.contains("hidden")) {
+    closeModal();
+  }
+});
 
 const greet = document.querySelector("#nav #nav-part3 #circle");
 const home = document.querySelector("#nav #nav-part2 #home");

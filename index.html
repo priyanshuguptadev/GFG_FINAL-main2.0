@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GFG — Student Chapter GGV</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+
+</head>
+
+<body>
+    
+
+    <div id="nav">
+        <img src="./assets/gfg-logo.png" alt="">
+        <div id="nav-part2">
+            <h4 class="nav-text" id="home"> <a class="nav-text" style="text-decoration: none;" href="#">HOME</a>
+            </h4>
+            <h4 class="nav-text" id="event"><a class="nav-text" style="text-decoration: none;" href="#">Events</a>
+            </h4>
+            <h4 class="nav-text" id="contact"><a class="nav-text" style="text-decoration: none;" href="#">Contact</a>
+            </h4>
+            <h4 class="nav-text" id="know-more"><a class="nav-text" style="text-decoration: none;"
+                    href="https://www.geeksforgeeks.org/geeksforgeeks-student-chapter/">Know more</a>
+            </h4>
+        </div>
+        <div id="nav-part3">
+            <div id="circle"></div>
+        </div>
+    </div>
+    <div id="purple">
+
+    </div>
+    <div class="main">
+        <div class="page1">
+
+            <h1>Geeks for Geeks</h1>
+            <h2>Student Chapter GGV</h2>
+            <video autoplay muted loop src="./assets/gfg-video.mp4"></video>
+        </div>
+
+
+        <div class="page2">
+            <h1 class="heading-welcome" style="margin-bottom: 1rem;">Welcome,</h1>
+            <div class="page2-container">
+                <div class="page2-left">
+                    <h2 style="align-items: center ;">UNLEASH YOUR TRUE POTENTIAL WITH <img src="./assets/gfg-logo.png"
+                            style="position: relative; align-items: center;" alt="">
+                        <br> 
+                    </h2>
+                    <span class="hype" >SHOW THE
+                        WORLD WHO
+                        YOU ARE!</span>
+                </div>
+                <div class="page2-right">
+                    <p>The GFG Student Chapter GGV helps students develop their coding and technical skills through
+                        workshops, hackathons, and peer learning. We bridge the gap between academics and industry,
+                        preparing students for tech careers. Our focus is on problem-solving, innovation, and
+                        leadership, fostering a collaborative environment for growth and success.
+                    </p>
+                    <button class="about-us" onclick="openModal()">About us</button>
+                </div>
+            </div>
+            <div class="modal hidden">
+                <button class="close-modal">&times;</button>
+                <img src="./assets/gfg-logo.png" alt="GFG Student Chapter GGV Logo" class="modal-logo"
+                    style="height: 2vmax;">
+                <div class="modal-inside-container"
+                    style="display: flex; align-items: center; justify-content: flex-start; ">
+                    <h1>Let's know more about us (GFG Student Chapter GGV)</h1>
+                </div>
+                <p>The aim of the Geeks for Geeks (GFG) Student Chapter is to foster a community of tech enthusiasts within educational institutions, providing a platform for students to enhance their technical knowledge, coding skills, and professional development. It encourages collaboration, peer learning, and participation in various workshops, hackathons, and coding contests. The chapter aims to bridge the gap between theoretical knowledge and practical application by offering resources and mentorship opportunities, thereby preparing students for the challenges of the tech industry. Through its initiatives, the GFG Student Chapter strives to cultivate innovation, problem-solving abilities, and a passion for technology among its members.</p>
+                
+                <div class="cards-container">
+                    <div class="card" id="card1">
+                        <h2>Card 1</h2>
+                        <p>Content for card 1.</p>
+                    </div>
+                    <div class="card" id="card2">
+                        <h2>Card 2</h2>
+                        <p>Content for card 2.</p>
+                    </div>
+                    <div class="card" id="card3">
+                        <h2>Card 3</h2>
+                        <p>Content for card 3.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay hidden"></div>
+
+        </div>
+        <div class="page3">
+            <h1 class="what-you-will-learn">Explore Our Offerings</h1>
+            <div id="cards">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img class="workshop" src="./assets/workshop.png" alt="">
+                        </div>
+                        <div class="card-info-wrapper">
+                            <div class="card-info">
+                                <i class="fa-duotone fa-apartment"></i>
+                                <div class="card-info-title">
+                                    <h3>Workshops</h3>
+                                    <h4>Hands-on learning to solve real-world problems.</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img src="./assets/coding-competition.png" class="competetions" alt="">
+                        </div>
+                        <div class="card-info-wrapper">
+                            <div class="card-info">
+                                <i class="fa-duotone fa-unicorn"></i>
+                                <div class="card-info-title">
+                                    <h3>Coding Competitions</h3>
+                                    <h4>Compete. Learn. Grow.</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img src="./assets/mentorship.png" alt="">
+                        </div>
+                        <div class="card-info-wrapper">
+                            <div class="card-info">
+                                <div class="card-info-title">
+                                    <h3>Mentorship</h3>
+                                    <h4>Guidance from experienced coders to help you succeed.</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img src="./assets/project.png" alt="">
+                        </div>
+                        <div class="card-info-wrapper">
+                            <div class="card-info">
+                                <i class="fa-duotone fa-person-to-portal"></i>
+                                <div class="card-info-title">
+                                    <h3>Projects</h3>
+                                    <h4>Collaborate and build impactful projects.</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img src="./assets/leadership.png" alt="">
+                        </div>
+                        <div class="card-info-wrapper">
+                            <div class="card-info">
+                                <i class="fa-duotone fa-person-from-portal"></i>
+                                <div class="card-info-title">
+                                    <h3>Leadership</h3>
+                                    <h4>Take charge and make a difference in our community.</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img src="./assets/events.png" class="events" alt="">
+                        </div>
+                        <div class="card-info-wrapper">
+                            <div class="card-info">
+                                <div class="card-info-title">
+                                    <h3>Events</h3>
+                                    <h4>Join us for tech talks, hackathons, and more.</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="core-members-heading-conatainer">Meet The Core Team</div> --> 
+         <!-- come here for page 2 of priyanshu-->
+        <!-- <div class="page4">
+
+            <div class="container">
+                <div class="card">
+                    <div class="content">
+                        <div class="img"><img src="./assets/anshuman.png"></div>
+                        <div class="cardContent">
+                            <h3>Anshuman Mishra<br><span>Chairperson</span></h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i:1">
+                            <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li style="--i:2">
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li style="--i:3">
+                            <a href="#"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="img"><img src="./assets/aditya.jpg"></div>
+                        <div class="cardContent">
+                            <h3>Adiya Raj<br><span>Voice Chairperson</span></h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i:1">
+                            <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li style="--i:2">
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li style="--i:3">
+                            <a href="#"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="img"><img src="./assets/piyush.png"></div>
+                        <div class="cardContent">
+                            <h3>Piyush Keshari<br><span>Event Head</span></h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i:1">
+                            <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li style="--i:2">
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li style="--i:3">
+                            <a href="#"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="img"><img src="./assets/me.jpg"></div>
+                        <div class="cardContent">
+                            <h3>Anuj Vishwakarma<br><span>Technical Head</span></h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i:1">
+                            <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li style="--i:2">
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li style="--i:3">
+                            <a href="#"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container" id="container2">
+                <div class="card">
+                    <div class="content">
+                        <div class="img"><img src="./assets/sakshi.png"></div>
+                        <div class="cardContent">
+                            <h3>Sakshi Agrawal<br><span>Content Head</span></h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i:1">
+                            <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li style="--i:2">
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li style="--i:3">
+                            <a href="#"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="img"><img src="./assets/sameer.png"></div>
+                        <div class="cardContent">
+                            <h3>Sameer<br><span>GD/Branding Head</span></h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i:1">
+                            <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li style="--i:2">
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li style="--i:3">
+                            <a href="#"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="img"><img src="./assets/kishan.png"></div>
+                        <div class="cardContent">
+                            <h3>Kishan Sahu<br><span>Social Media Head</span></h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i:1">
+                            <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li style="--i:2">
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li style="--i:3">
+                            <a href="#"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="img"><img src="./assets/chirag.png"></div>
+                        <div class="cardContent">
+                            <h3>Chirag Shinde<br><span>Marketing & PR Head</span></h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i:1">
+                            <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li style="--i:2">
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li style="--i:3">
+                            <a href="#"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div> -->
+        
+        <div id="page2">
+      
+            <h2 style="color: #4caf50; font-weight: 400; font-size: larger;">OUR CORE TEAM</h2>
+            <br>
+            <div id="cards">
+            <!-- card -->
+            <div id="card">
+              <div id="bg"></div>
+              <img src="./assets/avatar.jpeg" alt="">
+              <div id="text">
+                <span class="name">Anshuman Mishra </span>
+                <br>
+                <span class="work">Chairperson </span>
+              </div>
+              <div id="socials">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+            <!-- card -->
+            <div id="card">
+              <div id="bg"></div>
+              <img src="./assets/aditya.jpg" alt="">
+              <div id="text">
+                <span class="name">Aditya Raj</span>
+                <br>
+                <span class="work">Vice Chairperson</span>
+              </div>
+              <div id="socials">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+            <!-- card -->
+            <div id="card">
+              <div id="bg"></div>
+              <img src="./assets/piyush.png" alt="">
+              <div id="text">
+                <span class="name">Piyush Keshari</span>
+                <br>
+                <span class="work">Event Head </span>
+              </div>
+              <div id="socials">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+            <!-- card -->
+            <div id="card">
+              <div id="bg"></div>
+              <img src="./assets/anuj.jpg" alt="">
+              <div id="text">
+                <span class="name">Anuj Vishwakarma </span>
+                <br>
+                <span class="work">Technical Head</span>
+              </div>
+              <div id="socials">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+            <!-- card -->
+            <div id="card">
+              <div id="bg"></div>
+              <img src="./assets/sakshi.png" alt="">
+              <div id="text">
+                <span class="name">Sakshi Aggrawal</span>
+                <br>
+                <span class="work">Content Head</span>
+              </div>
+              <div id="socials">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+            <!-- card -->
+            <div id="card">
+              <div id="bg"></div>
+              <img src="./assets/avatar.jpeg" alt="">
+              <div id="text">
+                <span class="name">Sameer</span>
+                <br>
+                <span class="work">GD/Branding Head </span>
+              </div>
+              <div id="socials">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <!-- page 3 -->
+          <div id="page3">
+            <h2 id="heading" >OUR TECHNICAL TEAMS</h2>
+            <div id="page3cards">
+
+
+                <!-- checking modal
+                 
+  <button id="openModalBtn">Meet the team</button>
+
+  
+  <div id="myModal" class="modal">
+
+    
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      
+      <div id="modal-body"></div>
+    </div>
+
+  </div>
+                 
+                -->
+              <!-- card -->
+              <div id="card" data-team="web-dev">
+                <div id="bg"></div>
+                <img src="./assets/webdev.jpg" alt="">
+                <div id="text">
+                    <span class="name">Web development</span>
+                    <br>
+                    <span class="work">Team</span>
+                </div>
+                <button class="open-modal" data-modal="web-dev-modal">Meet the team</button>
+            
+                <!-- Web Development Modal -->
+                <div id="web-dev-modal" class="model hidden">
+                    <button class="close-modal modal-btn">&times;</button>
+                    <img src="./assets/gfg-logo.png" alt="GFG Student Chapter GGV Logo" class="model-logo">
+                    <div class="model-inside-container" style="display: flex; align-items: center; justify-content: flex-start;">
+                        <h1 style="color: green;">WEB DEVELOPMENT TEAM</h1>
+                    </div>
+                    <p>As a team we create various websites ensuring their functionality and smoothness...</p>
+                    <div class="model-list">
+                        <ul>
+                            <li style="color: black;">Abhinav Singh - LEAD</li>
+                            <li style="color: black;">Dheeraj Patnaik - SENIOR EXECUTIVE</li>
+                            <li style="color: black;">Deepak Kumar - SENIOR EXECUTIVE</li>
+                            <li style="color: black;">Harsh Agarwal - EXECUTIVE</li>
+                            <li style="color: black;">Priyanshu Gupta - EXECUTIVE</li>
+                            <li style="color: black;">Nikita Singh - EXECUTIVE</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="overlay hidden"></div>
+            </div>
+            
+            <div id="card" data-team="ai-ml">
+                <div id="bg"></div>
+                <img src="./assets/ai_ml.jpg" alt="">
+                <div id="text">
+                    <span class="name">AI/ML</span>
+                    <br>
+                    <span class="work">Team</span>
+                </div>
+                <button class="open-modal" data-modal="ai-ml-modal">Meet the team</button>
+            
+                <!-- AI/ML Modal -->
+                <div id="ai-ml-modal" class="model hidden">
+                    <button class="close-modal">&times;</button>
+                    <img src="./assets/gfg-logo.png" alt="GFG Student Chapter GGV Logo" class="model-logo">
+                    <div class="model-inside-container" style="display: flex; align-items: center; justify-content: flex-start;">
+                        <h1 style="color: green;">AI/ML TEAM</h1>
+                    </div>
+                    <p>As a forward-thinking team,we harness the power of Artificial Intelligence(AI) and Machine Learning(ML) to develop intelligent solutions.Leveraging expertise in deep learning,natural language processing,and computer visions,our team crafts innovative AI/ML applications that transforms and shape the future.</p>
+                    <div class="model-list">
+                        <ul>
+                            <li style="color: black;">Abhishek Singh - LEAD </li>
+                            <li style="color: black;">Divyanshu Mishra - SENIOR EXECUTIVE </li>
+                            <li style="color: black;">Sourav Kumar - SENIOR EXECUTIVE </li>
+                            <li style="color: black;">Himanshu Agrahari - SENIOR EXECUTIVE </li>
+                            <li style="color: black;">Vineet Kumar - EXECUTIVE </li>
+                            <li style="color: black;">Aditya Kumar Pandey - EXECUTIVE </li>
+                            <li style="color: black;">Gavidi Deepashikha - EXECUTIVE </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="overlay hidden"></div>
+            </div>
+            
+              <!-- card -->
+            <div id="card">
+              <div id="bg"></div>
+              <img src="./assets/appdev.jpg" alt="">
+              <div id="text">
+                <span class="name">App Dev </span>
+                <br>
+                <span class="work">Team</span>
+              </div>
+              <button class="open-modal" data-modal="app-dev-modal">Meet the team</button>
+            
+                <!-- APPDEV Modal -->
+                <div id="app-dev-modal" class="model hidden">
+                    <button class="close-modal modal-btn">&times;</button>
+                    <img src="./assets/gfg-logo.png" alt="GFG Student Chapter GGV Logo" class="model-logo">
+                    <div class="model-inside-container" style="display: flex; align-items: center; justify-content: flex-start;">
+                        <h1 style="color: green;">APP DEV TEAM</h1>
+                    </div>
+                    <p>We,the team of app development craft innovative,user-centric mobile applications.Together,we design,develop and deploy engaging apps that combine stunning visuals,seamless functionality and intuitive interfaces.</p>
+                    <div class="model-list">
+                        <ul>
+                            <li style="color: black;">Ayush Rai - LEAD</li>
+                            <li style="color: black;">Himanshu Ranjan - SENIOR EXECUTIVE</li>
+                            <li style="color: black;">Kanderi Alekhya - SENIOR EXECUTIVE</li>
+                            <li style="color: black;">Osim Kumar Laha - EXECUTIVE</li>
+                            <li style="color: black;">Saimands Roy - EXECUTIVE  </li>
+                            <li style="color: black;">Shivam Kumar - EXECUTIVE   </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="overlay hidden"></div>
+            </div>
+              <!-- card -->
+            <div id="card">
+              <div id="bg"></div>
+              <img src="./assets/cp_dsa.jpg" alt="">
+              <div id="text">
+                <span class="name">CP DSA </span>
+                <br>
+                <span class="work">Team</span>
+              </div>
+              <button class="open-modal" data-modal="cp-dsa-modal">Meet the team</button>
+            
+                <!-- CP/DSA Modal -->
+                <div id="cp-dsa-modal" class="model hidden">
+                    <button class="close-modal">&times;</button>
+                    <img src="./assets/gfg-logo.png" alt="GFG Student Chapter GGV Logo" class="model-logo">
+                    <div class="model-inside-container" style="display: flex; align-items: center; justify-content: flex-start;">
+                        <h1 style="color: green;">CP/DSA TEAM</h1>
+                    </div>
+                    <p>As a dynamic team of programmers,we tackle complex challenges in competitive programming, leveraging expertise in data structures and algorithms to deliver efficient solutions.</p>
+                    <div class="model-list">
+                        <ul>
+                            <li style="color: black;">Ankit Sharma - LEAD  </li>
+                            <li style="color: black;">Arjun Verma - SENIOR EXECUTIVE</li>
+                            <li style="color: black;">Deepak Ray - SENIOR EXECUTIVE</li>
+                            <li style="color: black;">Haldhar Behera - SENIOR EXECUTIVE  </li>
+                            <li style="color: black;">Abhiraj - EXECUTIVE  </li>
+                            <li style="color: black;">Ravi Tiwari - EXECUTIVE  </li>
+                            <li style="color: black;">Nikhil Chandrakar - EXECUTIVE  </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="overlay hidden"></div>
+            </div>
+              <!-- card -->
+            <div id="card">
+              <div id="bg"></div>
+              <img src="./assets/gamedev.jpg" alt="">
+              <div id="text">
+                <span class="name">Game Dev</span>
+                <br>
+                <span class="work">Team</span>
+              </div>
+              <button class="open-modal" data-modal="game-dev-modal">Meet the team</button>
+            
+                <!-- GAMEDEV Modal -->
+                <div id="game-dev-modal" class="model hidden">
+                    <button class="close-modal modal-btn">&times;</button>
+                    <img src="./assets/gfg-logo.png" alt="GFG Student Chapter GGV Logo" class="model-logo">
+                    <div class="model-inside-container" style="display: flex; align-items: center; justify-content: flex-start;">
+                        <h1 style="color: green;">GAME DEV TEAM</h1>
+                    </div>
+                    <p>We the passionate team of Game Development craft immersive game experiences that captivate and inspire us. We pour our hearts into designing, developing and deploying engaging games by pushing the boundaries of creativity and innovation. </p>
+                    <div class="model-list">
+                        <ul>
+                            <li style="color: black;">Kanisk Ranjan - LEAD   </li>
+                            <li style="color: black;">Tanishq Jangir - SENIOR EXECUTIVE </li>
+                            <li style="color: black;">Niraj Dhore - SENIOR EXECUTIVE </li>
+                            <li style="color: black;">Akash Das Mahant - EXECUTIVE</li>
+                            <li style="color: black;">Balakriti Kumari - EXECUTIVE </li>
+                            <li style="color: black;">Chhayansh Sahu - EXECUTIVE  </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="overlay hidden"></div>
+            </div>
+              <!-- card -->
+            <div id="card">
+              <div id="bg"></div>
+              <img src="./assets/iot.jpg" alt="">
+              <div id="text">
+                <span class="name">Internet of Things</span>
+                <br>
+                <span class="work">Team</span>
+              </div>
+              <button class="open-modal" data-modal="iot-modal">Meet the team</button>
+            
+                <!-- IOT Modal -->
+                <div id="iot-modal" class="model hidden">
+                    <button class="close-modal modal-btn">&times;</button>
+                    <img src="./assets/gfg-logo.png" alt="GFG Student Chapter GGV Logo" class="model-logo">
+                    <div class="model-inside-container" style="display: flex; align-items: center; justify-content: flex-start;">
+                        <h1 style="color: green;">IOT TEAM</h1>
+                    </div>
+                    <p>We,the analytical team of IoT love to innovate and experiment with cutting-edge technologies to bridge the physical and digital worlds. We design, develop, and deploy intelligent solutions that make a tangible impact on our lives. </p>
+                    <div class="model-list">
+                        <ul>
+                            <li style="color: black;">Raushan Yadav - LEAD</li>
+                            <li style="color: black;">Kella Y. Sai Kaoushal - SENIOR EXECUTIVE</li>
+                            <li style="color: black;">Ujjwal Kumar - SENIOR EXECUTIVE</li>
+                            <li style="color: black;">Saniya Shristy Gupta - EXECUTIVE </li>
+                            <li style="color: black;">Parasmani Khunte - EXECUTIVE  </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="overlay hidden"></div>
+            </div>
+              <!-- card -->
+            <div id="card">
+              <div id="bg"></div>
+              <img src="./assets/cyber.jpg" alt="">
+              <div id="text">
+                <span class="name">Cyber Security</span>
+                <br>
+                <span class="work">Team</span>
+              </div>
+              <button class="open-modal" data-modal="cyber-modal">Meet the team</button>
+            
+                <!-- Cyber Security Modal -->
+                <div id="cyber-modal" class="model hidden">
+                    <button class="close-modal modal-btn">&times;</button>
+                    <img src="./assets/gfg-logo.png" alt="GFG Student Chapter GGV Logo" class="model-logo">
+                    <div class="model-inside-container" style="display: flex; align-items: center; justify-content: flex-start;">
+                        <h1 style="color: green;">CYBER SECURITY TEAM</h1>
+                    </div>
+                    <p>We, the vigilant team of Cyber Security protect sensitive information and safeguard digital landscapes through cutting-edge cyber security solutions. Designing, Implementing and Monitoring robust defenses against evolving threats ensuring the integrity, confidentiality and availability of our client's data.  </p>
+                    <div class="model-list">
+                        <ul>
+                            <li style="color: black;">Ayush Srivastava - LEAD</li>
+                            <li style="color: black;">Meghana Jilakara - SENIOR EXECUTIVE</li>
+                            <li style="color: black;">Raushan Kumar - SENIOR EXECUTIVE </li>
+                            <li style="color: black;">Bablu Kumar - EXECUTIVE  </li>
+                            <li style="color: black;">Sami Banjare - EXECUTIVE   </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="overlay hidden"></div>
+            </div>
+            </div>
+          </div>
+          <div id="page4">
+            <h2 id="heading" >OUR NON-TECH TEAMS</h2>
+            <div id="page4cards">
+              <!-- card -->
+            <div id="card">
+              <div id="bg"></div>
+              <img src="./assets/designbranding.jpg" alt="">
+              <div id="text">
+                <span class="name">Design/Branding </span>
+                <br>
+                <span class="work">Team</span>
+              </div>
+              <button class="open-modal" data-modal="Design-modal">Meet the team</button>
+            
+              <!-- Design Modal -->
+              <div id="Design-modal" class="model hidden">
+                  <button class="close-modal modal-btn">&times;</button>
+                  <img src="./assets/gfg-logo.png" alt="GFG Student Chapter GGV Logo" class="model-logo">
+                  <div class="model-inside-container" style="display: flex; align-items: center; justify-content: flex-start;">
+                      <h1 style="color: green;">DESIGN TEAM</h1>
+                  </div>
+                  <p>Brand design is the process of crafting a brand's visual identity by creating a unified system of design elements, including a logo, colors, typography, illustration, and photography. A brand's visual identity is the aesthetic embodiment of its positioning and personality. /p>
+                  <div class="model-list">
+                    <ul>
+                        <li style="color: black;">Sameer - LEAD</li>
+                        <li style="color: black;">Parneet Prashant - SENIOR EXECUTIVE</li>
+                        <li style="color: black;">Rahul Yadav  - SENIOR EXECUTIVE</li>
+                        <li style="color: black;">Aditi Jaiswal  - SENIOR EXECUTIVE</li>
+                        <li style="color: black;">Divyanshu Patel - EXECUTIVE </li>
+                        <li style="color: black;">Umesh Kumar - EXECUTIVE  </li>
+                        <li style="color: black;">Astuti Kalothia - EXECUTIVE  </li>
+                    </ul>
+                  </div>
+              </div>
+              <div class="overlay hidden"></div>
+          </div>
+              <!-- card -->
+            <div id="card">
+              <div id="bg"></div>
+              <img src="./assets/content.jpg" alt="">
+              <div id="text">
+                <span class="name">Content </span>
+                <br>
+                <span class="work">Team</span>
+              </div>
+              <button class="open-modal" data-modal="Content-modal">Meet the team</button>
+            
+              <!-- Content Modal -->
+              <div id="Content-modal" class="model hidden">
+                  <button class="close-modal modal-btn">&times;</button>
+                  <img src="./assets/gfg-logo.png" alt="GFG Student Chapter GGV Logo" class="model-logo">
+                  <div class="model-inside-container" style="display: flex; align-items: center; justify-content: flex-start;">
+                      <h1 style="color: green;">CONTENT TEAM</h1>
+                  </div>
+                  <p>The aim of the content team in a student club is to create and manage high-quality, engaging, and informative content that supports the club's mission of fostering learning and development in technical and non-technical areas. The team is responsible for curating articles, tutorials, and event summaries, making complex topics accessible to students of all levels. They promote club activities, help build a strong community of learners, and provide educational resources that align with the club's goals to inspire and empower its members.</p>
+                  <div class="model-list">
+                    <ul>
+                        <li style="color: black;">Sakshi Agarwal - LEAD</li>
+                        <li style="color: black;">Adita Singh - SENIOR EXECUTIVE</li>
+                        <li style="color: black;">Jahnvi Shrivastava  - SENIOR EXECUTIVE</li>
+                        <li style="color: black;">Ahmad Raja - EXECUTIVE </li>
+                        <li style="color: black;">Abishek Tripathi - EXECUTIVE  </li>
+                        <li style="color: black;">Soumya Shree - EXECUTIVE  </li>
+                    </ul>
+                  </div>
+              </div>
+              <div class="overlay hidden"></div>
+          </div>
+              <!-- card -->
+            <div id="card">
+              <div id="bg"></div>
+              <img src="./assets/socialmedia.jpg" alt="">
+              <div id="text">
+                <span class="name">Social Media </span>
+                <br>
+                <span class="work">Team</span>
+              </div>
+              <button class="open-modal" data-modal="Social Media-modal">Meet the team</button>
+            
+              <!-- Social Media Modal -->
+              <div id="Social Media-modal" class="model hidden">
+                  <button class="close-modal modal-btn">&times;</button>
+                  <img src="./assets/gfg-logo.png" alt="GFG Student Chapter GGV Logo" class="model-logo">
+                  <div class="model-inside-container" style="display: flex; align-items: center; justify-content: flex-start;">
+                      <h1 style="color: green;">SOCIAL MEDIA TEAM</h1>
+                  </div>
+                  <p>The aim of the social media team in a student club is to enhance the club's online presence by creating and sharing engaging, relevant, and consistent content across various platforms. This team is responsible for promoting events, sharing updates, and building a vibrant digital community to attract and engage members. They focus on amplifying the club’s mission, fostering interaction with the audience, and ensuring that the club’s achievements, activities, and opportunities reach a wider audience while maintaining a positive and dynamic online image. </p>
+                  <div class="model-list">
+                    <ul>
+                        <li style="color: black;">Kishan Sahu - LEAD</li>
+                        <li style="color: black;">Ankit Chaurasiya - SENIOR EXECUTIVE</li>
+                        <li style="color: black;">Snigdha Gupta  - SENIOR EXECUTIVE</li>
+                        <li style="color: black;">Sakshi Priya - EXECUTIVE  </li>
+                        <li style="color: black;">Ashish Chandrakar - EXECUTIVE  </li>
+                    </ul>
+                  </div>
+              </div>
+              <div class="overlay hidden"></div>
+          </div>
+              <!-- card -->
+            <div id="card">
+              <div id="bg"></div>
+              <img src="./assets/eventteam.jpg" alt="">
+              <div id="text">
+                <span class="name">Event </span>
+                <br>
+                <span class="work">Team</span>
+              </div>
+              <button class="open-modal" data-modal="Event-modal">Meet the team</button>
+            
+              <!-- Event Modal -->
+              <div id="Event-modal" class="model hidden">
+                  <button class="close-modal modal-btn">&times;</button>
+                  <img src="./assets/gfg-logo.png" alt="GFG Student Chapter GGV Logo" class="model-logo">
+                  <div class="model-inside-container" style="display: flex; align-items: center; justify-content: flex-start;">
+                      <h1 style="color: green;">EVENT TEAM</h1>
+                  </div>
+                  <p>The aim of the events team in a student club is to plan, organize, and execute engaging events that align with the club’s mission and interests of its members. This team is responsible for coordinating all aspects of events, from ideation and logistics to promotion and execution, ensuring smooth operations and meaningful experiences for participants. They focus on creating a diverse range of activities, including workshops, hackathons, seminars, and networking opportunities, to foster learning, collaboration, and community building within the club and beyond. </p>
+                  <div class="model-list">
+                    <ul>
+                        <li style="color: black;">Piyush Keshri - LEAD</li>
+                        <li style="color: black;">Aryan Singh  - SENIOR EXECUTIVE</li>
+                        <li style="color: black;">Kanishka Patel  - SENIOR EXECUTIVE</li>
+                        <li style="color: black;">Sneha Singh  - SENIOR EXECUTIVE</li>
+                        <li style="color: black;">Rahul Mishra - EXECUTIVE </li>
+                        <li style="color: black;">Harsh Kumar sahu - EXECUTIVE  </li>
+                        <li style="color: black;">Pankaj Kumar - EXECUTIVE  </li>
+                    </ul>
+                  </div>
+              </div>
+              <div class="overlay hidden"></div>
+          </div>
+              <!-- card -->
+            <div id="card">
+              <div id="bg"></div>
+              <img src="./assets/marketing.jpg" alt="">
+              <div id="text">
+                <span class="name">Marketing & PR</span>
+                <br>
+                <span class="work">Team</span>
+              </div>
+              <button class="open-modal" data-modal="Marketing-modal">Meet the team</button>
+            
+              <!-- Marketing Modal -->
+              <div id="Marketing-modal" class="model hidden">
+                  <button class="close-modal modal-btn">&times;</button>
+                  <img src="./assets/gfg-logo.png" alt="GFG Student Chapter GGV Logo" class="model-logo">
+                  <div class="model-inside-container" style="display: flex; align-items: center; justify-content: flex-start;">
+                      <h1 style="color: green;">MARKETING TEAM</h1>
+                  </div>
+                  <p>The aim of the marketing team in a student club is to effectively promote the club's initiatives, events, and activities to a wider audience, helping to grow the club's presence and engagement. This team is responsible for developing strategic marketing plans, creating promotional materials, and leveraging various channels such as social media, email campaigns, and on-campus promotions. Their focus is on attracting new members, increasing event participation, and building the club’s brand by showcasing its value and accomplishments to both the student body and external partners. </p>
+                  <div class="model-list">
+                    <ul>
+                        <li style="color: black;">Chirag Shinde - LEAD</li>
+                        <li style="color: black;">Jaahnvi Shukla - SENIOR EXECUTIVE</li>
+                        <li style="color: black;">Aryan Patel - SENIOR EXECUTIVE</li>
+                        <li style="color: black;">Aman Gupta - SENIOR EXECUTIVE</li>
+                        <li style="color: black;">Shradha Agarwal - EXECUTIVE </li>
+                        <li style="color: black;">Kiran Elakapalli - EXECUTIVE  </li>
+                        <li style="color: black;">Zafar Ali - EXECUTIVE  </li>
+                        <li style="color: black;">Manish Kumar  - EXECUTIVE  </li>
+                        <li style="color: black;">Ishita Naidu  - EXECUTIVE  </li>
+                        <li style="color: black;">Anant Dubey - EXECUTIVE  </li>
+                    </ul>
+                  </div>
+              </div>
+              <div class="overlay hidden"></div>
+          </div>
+              <!-- card -->
+            <div id="card">
+              <div id="bg"></div>
+              <img src="./assets/videography.jpg" alt="">
+              <div id="text">
+                <span class="name">Photo & Video</span>
+                <br>
+                <span class="work">Team</span>
+              </div>
+              <button class="open-modal" data-modal="Videography-modal">Meet the team</button>
+            
+              <!-- Videography Modal -->
+              <div id="Videography-modal" class="model hidden">
+                  <button class="close-modal modal-btn">&times;</button>
+                  <img src="./assets/gfg-logo.png" alt="GFG Student Chapter GGV Logo" class="model-logo">
+                  <div class="model-inside-container" style="display: flex; align-items: center; justify-content: flex-start;">
+                      <h1 style="color: green;">VIDEOGRAPHY TEAM</h1>
+                  </div>
+                  <p>All about capturing moments , caging time and beauty into pictures to speak and videos to sing. </p>
+                  <div class="model-list">
+                    <ul>
+                        <li style="color: black;">Ved Singh - LEAD</li>
+                  </div>
+              </div>
+              <div class="overlay hidden"></div>
+          </div>
+            </div>
+          </div>
+        <div class="page5">
+            <div class="description">
+                Contact Us
+            </div>
+            <div class="wrapper">
+                <div class="inner">
+                    <form action="">
+                        <h3 id="registration-form">ANY QUERY? SEND HERE!</h3>
+                        <div class="form-group">
+                            <div class="form-wrapper">
+                                <label for="">First Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-wrapper">
+                                <label for="">Last Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-wrapper">
+                            <label for="">Email</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-wrapper">
+                            <label for="">Tell us about your Query</label>
+                            <input id="query" type="text" class="form-control">
+                        </div>
+
+                        <button type="submit">Send</button>
+                    </form>
+                    <div class="contact-img">
+                        <img  src="./assets/contact-us-image.png" draggable="false" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- footer  -->
+        <div id="page6">
+            <footer class="footer-distributed">
+
+                <div class="footer-left">
+
+                    <img class="footer-logo" src="./assets/student-chapter-logo.png" draggable="false">
+
+                    <p class="footer-links">
+                        <a href="#" class="link-1">Home</a>
+    
+                        <a href="#">Events</a>
+    
+                        <a href="#">Contact</a>
+    
+                        <a href="#">Know more</a>
+                    </p>
+
+                    <p class="footer-company-name">GFG Student Chapter GGV © 2024</p>
+                </div>
+
+                <div class="footer-center">
+
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p><span>Guru Ghasidas Vishwavidyalaya</span> Koni, Bilaspur, Chhattisgarh 495009</p>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>07752 - 260209</p>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p><a href="mailto:support@company.com">gfgstudentchapterggv@gmail.com</a></p>
+                    </div>
+
+                </div>
+
+                <div class="footer-right">
+
+                    <p class="footer-company-about">
+                        <span>About the club</span>
+                        The GFG Student Chapter at GGV is a university-based club managed by GeeksforGeeks that helps
+                        students improve their coding skills.
+                    </p>
+
+                    <div class="footer-icons">
+
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <!-- <a href="#"><i class="fab fa-github"></i></a> -->
+
+                    </div>
+
+                </div>
+
+            </footer>
+        </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+            integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+            integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
+
+<!--  <footer class="footer">
+            <div class="container">
+                <div class="left">
+                    <div class="top">
+                        <img src="./assets/student-chapter-logo.png" draggable="false" alt="">
+                    </div>
+                    <div class="middle">
+                        <h4 class="nav-text" id="home"> <a class="nav-text" style="text-decoration: none;" href="#">HOME
+                                |</a>
+                            <h4 class="nav-text" id="home"> <a class="nav-text" style="text-decoration: none;"
+                                    href="#">EVENTS |</a>
+                                <h4 class="nav-text" id="home"> <a class="nav-text" style="text-decoration: none;"
+                                        href="#">CONTACT</a>
+                    </div>
+                    <div class="bottom">GFG Student Chapter GGV © 2024 </div>
+                </div>
+                <div class="middle">
+                    <div class="top">
+                        <img src="./assets/location.png" alt="">
+                        <p>Guru Ghasidas Vishwavidyalaya, Koni, Bilaspur, 495009</p>
+                    </div>
+                    <div class="middle">
+                        <img src="./assets/contact.png" alt="">
+                        <p>+91 1234567890</p>
+                    </div>
+                    <div class="bottom">
+                        <img src="./assets/email.png" alt="">
+                        <p>gfgstudentchapterggv@gmail.com</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="top">
+                        <h3>About the company</h3>
+                    </div>
+                    <div class="middle">
+                        <p>GFG Student Chapter GGV is a university based club managed Geeks For Geeks.</p>
+                    </div>
+                    <div class="bottom">
+                        social handles -->
+<!-- <a href="www.instagram.com">instagram</a><a href="www.linkedin.com">linkedin</a><a
+                            href="www.twitter.com">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </footer> -->
